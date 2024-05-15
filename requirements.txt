@@ -1,5 +1,7 @@
+python
 openai
-langchain
+langchain[all]
 streamlit
 chroma-js
-
+Chroma
+numpy
