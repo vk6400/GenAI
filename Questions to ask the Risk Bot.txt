@@ -1,0 +1,39 @@
+Sample questions you can try on the Risk Copilot:
+
+Does Gruber have a Force Majeure clause?
+What are the payment terms for Carewell?
+What are the insurance requirements for ACME?
+What is the payment Schedule for Bright?
+what is the address for stark industries?
+Does Gruber have a Force Majeure clause?
+What are the insurance requirements for Gruber?
+What is the payment Schedule for Gruber?
+We had a security breach. Which customers do I need to notify and in how many days for each?
+What are the payment terms for wellcare?
+What are the payment terms for ACME?
+what is the address for stark industries?
+
+
+Client names in MSA:
+
+Acme
+Bright
+Carewell
+Uphealth
+Stark Industries
+Easy Shipping
+Saber Co
+Wookie Grooming
+Solo Labs
+Stevesung
+USA Supply
+Gruber
+Orcstad
+GuideFive
+Wellmade
+
+
+You can now view your Streamlit app in your browser.
+Local URL: http://localhost:8501
+Network URL: http://10.0.0.92:8501
+
