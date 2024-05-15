@@ -1,7 +1,7 @@
 # initialisation of environment variable for Open AI key and imports
 
 import os
-os.environ["OPENAI_API_KEY"] = "sk-proj-xMvVuPJN0DyZ65czTmTYT3BlbkFJW2PFU95Sl7L0GasG8CYC"
+os.environ["OPENAI_API_KEY"] = "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"
 
 import streamlit as st
 from langchain.vectorstores import Chroma
@@ -29,7 +29,7 @@ def get_conversation_chain(vectorstore):
 
     
     llm = OpenAI(callback_manager = callback_manager, 
-                    max_tokens= 200 , api_key="sk-proj-xMvVuPJN0DyZ65czTmTYT3BlbkFJW2PFU95Sl7L0GasG8CYC")
+                    max_tokens= 200 , api_key="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")
 
 
     prompt_template = """You are a personal Risk Copilot Bot assistant for answering any questions about risk and MSA's
@@ -137,7 +137,7 @@ def main():
     st.subheader("Generative AI BOT")
 
 
-    st.session_state.embeddings = OpenAIEmbeddings(api_key="sk-proj-xMvVuPJN0DyZ65czTmTYT3BlbkFJW2PFU95Sl7L0GasG8CYC")
+    st.session_state.embeddings = OpenAIEmbeddings(api_key="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")
 
 
     vectorstore = Chroma(persist_directory="./vectorembeddings/", embedding_function=st.session_state.embeddings)
