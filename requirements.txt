@@ -1,4 +1,5 @@
-python
+python3
+pip3
 openai
 langchain[all]
 streamlit
